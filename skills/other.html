@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="other.style.css" />
+    <title>ポートフォリオ-(開発段階)-ファジャル-クル二アワン</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="../img/mark.png" width="120" height="86" alt="Watermark" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">ホーム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../aboutme.html">私について</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contactme.html">問い合わせ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            技術
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="development.html">ウエブ開発</a></li>
+                            <li><a class="dropdown-item" href="designer.html">ウエブデザイナー</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">ギャラリー</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            言語
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">日本語</a></li>
+                            <li><a class="dropdown-item" href="../id-index.html">Indonesia</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">English(お楽しみに)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">ウエブ開発段階(お楽しみに)</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="検索" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">検索</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="felx-fill">
+        <div class="opening">
+            <h1>ギャラリーページへようこそ</h1>
+            <p>こちらでは私のギャラリーをご紹介させていただきます。全て自作です。ぜひご覧ください。</p>
+    </main>
+
+    <div class="skills-content">
+        <!-- <h3>Photoshop</h3> -->
+        <img src="../img/Photoshop/Photoshop-logo.png" alt="Logo Photoshop" class="logo-apk">
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/Photoshop/Photoshop.jpg" alt="Watermark" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3>Ilustrator</h3> -->
+        <img src="../img/Ilustrator/Ilustrator-logo.png" alt="Logo Ilustrator" class="logo-apk">
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/Ilustrator/object1(png).jpg" alt="Ilustrator" onclick="openModal(this)">
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/Ilustrator/Project1.jpg" alt="Ilustrator" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3>Blender</h3> -->
+        <img src="../img/Blender/Blender_logo_.png" alt="Logo Blender" class="logo-apk">
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/Blender/Project1.jpg" alt="Blender" onclick="openModal(this)">
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/Blender/Table.jpg" alt="Blender" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3>Python</h3> -->
+        <img src="../img/Python/Python-logo-.png" alt="Logo Python" class="logo-apk">
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/mark.png" alt="Watermark">
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3>Microsoft Word</h3> -->
+        <img src="../img/Ms. Word/Microsoft_Office_Word_logo.png" alt="Logo Microsoft Word" class="logo-apk">
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/mark.png" alt="Watermark">
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3>Microsoft Excel</h3> -->
+        <img src="../img/Ms. Excel/Microsoft_Office_Excel_logo.png" alt="Logo Microsoft Excel" class="logo-apk">
+        <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-card-image">
+                    <img src="../img/mark.png" alt="Watermark">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="imgModal" class="modal" onclick="closeModal()">
+        <img id="modalImage" class="modal-content" onclick="event.stopPropagation()">
+    </div>
+
+
+    <!-- <h3>Ilustrator</h3>
+        <div class="skills-card">
+            <div class="skills-card-image">
+                <img src="../img/mark.png" alt="Watermark">
+            </div>
+        </div>
+
+        <h3>Python</h3>
+        <div class="skills-card">
+            <div class="skills-card-image">
+                <img src="../img/mark.png" alt="Watermark">
+            </div>
+        </div>
+
+        <h3>Microsoft Word</h3>
+        <div class="skills-card">
+            <div class="skills-card-image">
+                <img src="../img/mark.png" alt="Watermark">
+            </div>
+        </div>
+
+        <h3>Microsoft Excel</h3>
+        <div class="skills-card">
+            <div class="skills-card-image">
+                <img src="../img/mark.png" alt="Watermark">
+            </div>
+        </div>
+
+        <h3>Blender</h3>
+        <div class="skills-card">
+            <div class="skills-card-image">
+                <img src="../img/Blender/Project1.png" alt="Karya Blender">
+                <img src="../img/Blender/Project1.png" alt="Karya Blender">
+            </div>    
+        </div>
+    </div> -->
+    <!-- <div class="skills-HP">
+                <li>Pixellab</li>
+                <img src="..." alt="...">
+                <li>Eraser</li>
+                <img src="..." alt="...">
+                <li>Alight Motion</li>
+                <img src="..." alt="...">
+                <li>Kinemaster</li>
+                <img src="..." alt="...">
+                <li>Acode</li>
+                <img src="..." alt="...">  -->
+
+    <footer>
+        <p>&copy; 2025 ファジャル・クル二アワン。全著作権所有</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script src="other-script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #f4f4f4;
+    /* overflow: hidden; */
+}
+
+.opening {
+    position: relative;
+    bottom: 1.2vh;
+    margin: 8%;
+    padding-left: 15%;
+    text-align: center;
+    width: 91vw;
+    z-index: 0;
+}
+
+
+.vertical-line{
+    position: fixed;
+    top: 0;
+    left: 15%;
+    border-left: 8rem solid red;
+    height: 100vh;
+    z-index: 4;
+}
+
+.profile-picture {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform: translate(45%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid red;
+    z-index: 10;
+    display: inline-block;
+}
+
+.profile-picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-content{
+    text-align: center;
+    margin-top: -55vh;
+    padding-left: 28vw;
+}
+
+.background-text-content {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 28vw;
+}
+
+.school {
+    background-color: red;
+    color: white;
+}
+
+.skills-text-content li {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 30vw;
+}
+
+.to-do p {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 25vw;
+}
+
+.interisting-content li {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 30vw;
+}
+
+h1{
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+h3 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 79.8%;
+    margin-left: 20vw;
+}
+
+footer {
+    position: relative;
+    bottom: -5vh;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .opening {
+        transform: translateY(20vh);
+        margin: 5%;
+        padding-left: 0;
+        text-align: center;
+        font-size: 70%;
+    }
+
+    .vertical-line {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 0;
+    }
+
+    .profile-picture {
+        position: relative;
+        transform: translate(30vw, 45vw);
+        width: 150px;
+        height: 150px;
+        border: none;
+        text-align: center;
+        
+    }
+
+    .opening {
+        background-color: red;
+        color: white;
+        position: relative;
+        top: 0;
+        margin-left: auto;
+        padding-right: 0;
+        text-align: center;
+        width: 100vw;
+        z-index: 0;
+    }
+    .text-content{
+        text-align: center;
+        margin-top: 50%;
+        padding-left: 1vw;
+    }
+
+    .background-text-content {
+        text-align: center;
+        margin-top: 0;
+        padding-left: 1vw;
+    }
+
+    .school {
+        background-color: red;
+        color: white;
+    }
+
+    .skills-text-content li {
+        text-align: left;
+        margin-top: 0;
+        padding-left: 1vw;
+    }
+
+    .to-do p {
+        text-align: center;
+        margin-top: 0;
+        padding-left: 1vw;
+    }
+
+    .interisting-content li {
+        text-align: left;
+        margin-top: 0;
+        padding-left: 1vw;
+    }
+    
+    h3 {
+        background-color: red;
+        color: white;
+        text-align: center;
+        width: 100vw;
+        margin-left: auto;
+    }
+
+}
+
